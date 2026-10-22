@@ -30,6 +30,7 @@ TARGET = "tip"
 NUMERIC_FEATURES = ["total_bill", "size"]
 CATEGORICAL_FEATURES = ["sex", "smoker", "day", "time"]
 FEATURES = NUMERIC_FEATURES + CATEGORICAL_FEATURES
+# Testing
 
 
 def build_pipeline() -> Pipeline:
